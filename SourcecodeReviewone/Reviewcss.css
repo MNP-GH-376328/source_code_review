@@ -1,0 +1,217 @@
+﻿body {
+    font-family: Candara;
+    margin: 0;
+    font-family: Calibri;
+    background-color: #f7f2fc;
+    /*swal alert*/
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.all {
+    display: flex;
+}
+
+.main {
+    width: 200px;
+    background-color: #D3C5E5;
+    height: 100%;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+}
+
+#d1 {
+    display: flex;
+    flex-direction: column;
+}
+
+    #d1 a {
+        font-size: 20px;
+        font-family: Calibri;
+        text-decoration: none;
+        color: #333;
+        padding: 20px;
+        transition: background-color 0.3s;
+        border-radius: 10px;
+        transition: .7s;
+    }
+
+        #d1 a:hover {
+            color: white;
+            background-color: #ddd;
+            transform: scale(1.01);
+            background-color: #735DA5;
+            box-shadow: 3.9px 7.8px 7.8px hsl(0deg 0% 0% / 0.38);
+        }
+
+.opt {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.topbar {
+    width: 80vw;
+    background-color: #D3C5E5;
+    height: 100px;
+}
+
+.icons {
+    border-radius: 10px;
+    margin: 30px;
+    display: flex;
+    font-size: 30px;
+    float: right;
+}
+
+.user {
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    transition: .7s;
+}
+
+.fa-sign-out {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.user:hover {
+    color: white;
+    background-color: #ddd;
+    transform: scale(1.01);
+    background-color: #735DA5;
+    box-shadow: 3.9px 7.8px 7.8px hsl(0deg 0% 0% / 0.38);
+}
+
+.icons i {
+    margin-right: 10px;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    transition: .7s;
+}
+
+    .icons i:hover {
+        color: white;
+        background-color: #ddd;
+        transform: scale(1.01);
+        background-color: #735DA5;
+        box-shadow: 3.9px 7.8px 7.8px hsl(0deg 0% 0% / 0.38);
+    }
+
+/*.insideform {
+
+}*/
+
+.Dropdown {
+    margin-left: 25px;
+    height: 35px;
+    width: 73%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+
+.reportdiv {
+    margin-left: 200px;
+    margin-top: 80px;
+}
+
+.BUTTUNDIV {
+    margin-left: 250px;
+    margin-top: 80px;
+}
+
+.INPUTBOX {
+    margin-left: 10px;
+    height: 90px;
+    width: 73%;
+    border-radius: 30px;
+    margin-top: 1%;
+    border: none;
+    outline: none;
+}
+
+.FILEUPLOAD {
+    height: 90px;
+    width: 70%;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+
+.reviewcolor {
+    /*width: 860px;
+    padding: 30px;
+    background-color: #735DA5;
+    margin-left: -180px;
+    margin-top: -70PX;
+    margin-bottom: -10px;*/
+    height: 450px;
+    margin-left: -150px;
+    margin-top: -50PX;
+    /*margin: 50px;*/
+    background-color: #735DA5;
+    border-radius: 15px;
+    width: 900px;
+    box-shadow: 3.9px 7.8px 7.8px hsl(0deg 0% 0% / 0.38);
+}
+
+.formdiv {
+    color: white;
+    margin: 10px 100px;
+}
+
+    .formdiv h1 {
+        text-align: center;
+    }
+
+.NAL {
+    margin-top: -50px;
+}
+
+.BUTTUNDIV {
+    margin-top: 40px;
+}
+
+.bumt {
+    padding: 15px 70px;
+    border: none;
+    outline: none;
+    background-color: #C2FBD7 /*D3C5E5*/;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: -148px;
+    text-decoration: none;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* Add some padding for better appearance */
+    color: #000; /* Set text color */
+}
+
+/*.retrun {
+            border:none;
+            outline:none;
+            background-color: orangered;
+            width: 100px;
+            height: 40px;
+            border-radius: 10px;
+            margin-left: 50px;
+            cursor: pointer;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }*/
+
+
+.exit {
+    padding: 15px 75px;
+    border: none;
+    outline: none;
+    background-color: #ff8383;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 30px;
+    text-decoration: none;
+    box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+    /* Add some padding for better appearance */
+    color: #000; /* Set text color */
+    transform: scale(1.05);
+}

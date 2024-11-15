@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="27e8c4ad-9812-4193-82ca-c517e859afbc" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:61300/SourceCodeService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SourceCodeService.xsd" MetadataType="Schema" ID="bbcfc554-9cb7-4376-9f32-540ca5822d45" SourceId="1" SourceUrl="http://localhost:61300/SourceCodeService.svc?xsd=xsd0" />
+    <MetadataFile FileName="SourceCodeService1.xsd" MetadataType="Schema" ID="1d07190d-b515-4e94-abf8-a01f5f44a93a" SourceId="1" SourceUrl="http://localhost:61300/SourceCodeService.svc?xsd=xsd2" />
+    <MetadataFile FileName="SourceCodeService.disco" MetadataType="Disco" ID="013ace55-28f1-472e-b3e4-44d5d10dd062" SourceId="1" SourceUrl="http://localhost:61300/SourceCodeService.svc?disco" />
+    <MetadataFile FileName="SourceCodeService.wsdl" MetadataType="Wsdl" ID="20b53456-dd23-46e0-999c-7e3abff96fc5" SourceId="1" SourceUrl="http://localhost:61300/SourceCodeService.svc?wsdl" />
+    <MetadataFile FileName="SourceCodeService2.xsd" MetadataType="Schema" ID="cf218809-8700-4576-9e89-f4af269c07d6" SourceId="1" SourceUrl="http://localhost:61300/SourceCodeService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
